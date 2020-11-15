@@ -11,3 +11,9 @@
 > 是可以用像lasertagger之类的方法，作为一个扩写任务
 
 > 像T5的预训练任务也算是扩写
+
+## Do Not Have Enough Data? Deep Learning to the Rescue
+
+> 利用GPT系列这些因果语言模型来生成训练数据来做数据增强，具体方法  y1 SEP X1 EOS y2 SEP X2 EOS ......  yn SEP xn EOS。训练方法就是预训练的步骤从左到右。这步微调
+> 然后通过 y SEP 来生成句子。
+
